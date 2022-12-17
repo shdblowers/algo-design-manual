@@ -1,0 +1,21 @@
+{
+    "name": "steven/algo-design-manual",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "phpstan/phpstan": "^1.9"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Steven\\AlgoDesignManual\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Steven Blowers",
+            "email": "steven@shdblowers.com"
+        }
+    ],
+    "require": {}
+}
