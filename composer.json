@@ -1,21 +1,25 @@
 {
     "name": "steven/algo-design-manual",
+    "description": "Exercises from The Algorithm Design Manual by Skiena",
     "type": "project",
-    "require-dev": {
-        "phpunit/phpunit": "^9.5",
-        "phpstan/phpstan": "^1.9"
-    },
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Steven\\AlgoDesignManual\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "Steven Blowers",
             "email": "steven@shdblowers.com"
         }
     ],
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "Steven\\AlgoDesignManual\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "phpstan/phpstan": "^1.9"
+    }
 }
